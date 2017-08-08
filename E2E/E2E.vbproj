@@ -97,6 +97,9 @@
     <Content Include="Pages\Login\login.aspx" />
     <Content Include="Pages\Menu\menu.aspx" />
     <Content Include="Pages\Menu\Pedidos.aspx" />
+    <Content Include="Pages\Menu\Scripts\AceptaPedido.aspx" />
+    <Content Include="Pages\Menu\Scripts\CancelaPedido.aspx" />
+    <Content Include="Pages\Menu\Scripts\DetallePedido.aspx" />
     <Content Include="Scripts\js\bootbox.min.js" />
     <Content Include="Scripts\js\bootstrap.js" />
     <Content Include="Scripts\js\bootstrap.min.js" />
@@ -203,6 +206,27 @@
     <Compile Include="Pages\Menu\Pedidos.aspx.vb">
       <DependentUpon>Pedidos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Menu\Scripts\AceptaPedido.aspx.designer.vb">
+      <DependentUpon>AceptaPedido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Menu\Scripts\AceptaPedido.aspx.vb">
+      <DependentUpon>AceptaPedido.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Menu\Scripts\CancelaPedido.aspx.designer.vb">
+      <DependentUpon>CancelaPedido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Menu\Scripts\CancelaPedido.aspx.vb">
+      <DependentUpon>CancelaPedido.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Menu\Scripts\DetallePedido.aspx.designer.vb">
+      <DependentUpon>DetallePedido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Menu\Scripts\DetallePedido.aspx.vb">
+      <DependentUpon>DetallePedido.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Principal.Master.designer.vb">
       <DependentUpon>Principal.Master</DependentUpon>

@@ -60,7 +60,7 @@
                     <li><a href="#"><i class="fa fa-user-circle-o"></i> Editar perfil</a></li>
                     <li><a href="#"><i class="fa fa-edit"></i> Cambiar contraseña</a></li>
                     <li class="divider"></li>
-                    <li><a runat="server" href="~/"><i class="fa fa-sign-out"></i> Cerrar sesión</a></li>
+                    <li><a runat="server" href="~/Pages/Login/login.aspx"><i class="fa fa-sign-out"></i> Cerrar sesión</a></li>
                 </ul>
             </li>
         </ul>
